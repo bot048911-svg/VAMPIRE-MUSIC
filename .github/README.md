@@ -1,5 +1,5 @@
 <h2 align="center">
-    ─˹𝐒ᴀʀ‌‌ᴇɢᴀмᴀ 𝐌мᴜѕɪᴄ ᯤ‌˼─
+    ─˹𝐓𝐞𝐚𝐦-𝐀𝐮𝐫𝐨˼─
 
 </h2>
 
@@ -19,11 +19,11 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-## 🖇 ❛ 𝗠𝘂𝘀𝗶𝗰 𝗪𝗼𝗿𝗹𝗱 𝗨𝗽𝗱𝗮𝘁𝗲 ❜
+## 🖇 ❛ 𝗔𝘂𝗿𝗼 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ❜
 
 <p>
-<a href="https://t.me/SaregamaMusic_bot"><img src="https://img.shields.io/badge/SAREGAMA%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
-<a href="https://t.me/BabyMusicsBot-Gen"><img src="https://img.shields.io/badge/BABY%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+<a href="https://t.me/SaregamMusicBot"><img src="https://img.shields.io/badge/SAREGAMA%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+<a href="https://t.me/ChaahatMusicBot-Gen"><img src="https://img.shields.io/badge/CHAHAT%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
 
 
 <h3 align="center">
@@ -33,15 +33,15 @@
 </h3>
 
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/saregamamusic/SaregamaMusic"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/rockyxd3/Auro"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 
 <p align="center">
-<a href="https://telegram.me/MR_ROCKY_TZ"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 𝐌𝐑 𝐑𝐎𝐂𝐊𝐘%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/MrRockytg"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 𝐌𝐑 𝐑𝐎𝐂𝐊𝐘%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <p align="center">
-<a href="https://t.me/Music_World_Update"><img src="https://img.shields.io/badge/-☆𝐔𝐏𝐃𝐀𝐓𝐄%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/teamauro"><img src="https://img.shields.io/badge/-𝐔𝐏𝐃𝐀𝐓𝐄%20-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
@@ -75,4 +75,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 - For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
 ━━━━━━━━━━━━━━━━━━━━
 ### Contact :
-<a href="https://telegram.me/MR_ROCKY_TZ"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+<a href="https://telegram.me/MrRockyTg"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>

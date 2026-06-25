@@ -1,108 +1,80 @@
-<div align="center">
+<h2 align="center">
+    ─˹𝐒ᴀʀ‌‌ᴇɢᴀмᴀ 𝐌мᴜѕɪᴄ ᯤ‌˼─
 
-<h1>🎵 KartikMusic 🎵</h1>
+</h2>
 
-<b>A Powerful Telegram Music Bot for Group Voice Chats</b><br>
-Stream high-quality audio and video with ease.
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+𝚂𝙰𝚁𝙴𝙶𝙰𝙼𝙰+𝙼𝚄𝚂𝙸𝙲+𝚁𝙴𝙿𝙾+:+𝚃𝙷𝙸𝚂+𝙸𝚂+𝙰+𝙰𝙳𝚅𝙰𝙽𝙲𝙴+𝙼𝚄𝚂𝙸𝙲+𝙱𝙾𝚃;𝙿𝙾𝚆𝙴𝚁𝙴𝙳+𝙱𝚈+☞+𝗧𝗘𝗔𝗠+𝗥𝗢𝗖𝗞𝗬 )
+
+
 
 <p align="center">
-    <a href="https://github.com/TheAloneTeam/KartikMusic/stargazers"><img src="https://img.shields.io/github/stars/TheAloneTeam/KartikMusic?color=blueviolet&logo=github&style=for-the-badge" alt="Stars"/></a>
-    <a href="https://github.com/TheAloneTeam/KartikMusic/network/members"><img src="https://img.shields.io/github/forks/TheAloneTeam/KartikMusic?color=blueviolet&logo=github&style=for-the-badge" alt="Forks"/></a>
-    <a href="https://github.com/TheAloneTeam/KartikMusic/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"/></a>
-    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Written%20in-Python-blue?style=for-the-badge&logo=python" alt="Python"/></a>
+  <img src="https://files.catbox.moe/rrehl3.jpg">
 </p>
 
-<img src="https://github.com/TheAloneTeam/KartikMusic/blob/master/.github/anonx.jpg" width="100%" alt="KartikMusic Banner">
 
-</div>
 
-<hr>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗙𝗢𝗥𝗞+𝗧𝗛𝗜𝗦+𝗥𝗘𝗣𝗢+𝗕𝗘𝗙𝗢𝗥𝗘+𝗗𝗘𝗣𝗟𝗢𝗬)
 
-## 🚀 Features
+## ⚠️ 𝗗𝗜𝗦𝗖𝗟𝗔𝗜𝗠𝗘𝗥
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+👉🏻 ʜᴇʏ ɢᴜʏ's, ᴅᴏɴ'ᴛ ᴜsᴇ ʏᴏᴜʀ ʀᴇᴀʟ ɪ'ᴅ sᴇssɪᴏɴ ᴀs ᴀ ᴀssɪsᴛᴀɴᴛ ʙᴄᴏᴢ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴡɪʟʟ ʟᴇᴀᴠᴇ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs.ᴜ  ᴍɪɢʜᴛ ʟᴏᴏsᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴏᴡɴᴇʀsʜɪᴘ ᴀɴᴅ ᴀᴅᴍɪɴsʜɪᴘ 🥺 sᴏ ᴜsᴇ ʏᴏᴜʀ ᴀɴʏ ᴏᴛʜᴇʀ ɪ'ᴅ sᴇssɪᴏɴ 👈🏻
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-- 🔊 **High Quality Audio:** Crystal clear sound for your voice chats.
-- 🎬 **Video Playback:** Support for high-definition video streaming.
-- 📜 **Queue Management:** Powerful and easy-to-use queue system.
-- 🔄 **Autoplay:** Keeps the music going automatically.
-- 🌍 **Multi-Language:** Supports 13+ languages.
-- 🛠️ **Customizable:** Easy to configure for your own needs.
 
-<hr>
+## 🖇 ❛ 𝗠𝘂𝘀𝗶𝗰 𝗪𝗼𝗿𝗹𝗱 𝗨𝗽𝗱𝗮𝘁𝗲 ❜
 
-## 🛠️ Deployment
+<p>
+<a href="https://t.me/SaregamaMusic_bot"><img src="https://img.shields.io/badge/SAREGAMA%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+<a href="https://t.me/BabyMusicsBot-Gen"><img src="https://img.shields.io/badge/BABY%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
 
-### 💜 Deploy on Heroku
 
-Deploying on Heroku is easy! Just click the button below:
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/TheAloneTeam/KartikMusic)
+<h3> 𝗛𝗘𝗥𝗢𝗞𝗨 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗕𝗨𝗧𝗧𝗢𝗡 </h3>
+</h3>
 
-### 💻 VPS / Local Deployment
 
-Follow these steps to host the bot on your own server:
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/saregamamusic/SaregamaMusic"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-1. **Clone the Repo:**
-   ```bash
-   git clone https://github.com/TheAloneTeam/KartikMusic && cd KartikMusic
-   ```
 
-2. **Install UV:**
-   ```bash
-   curl -Ls https://astral.sh/uv/install.sh | sh
-   export PATH="$HOME/.local/bin:$PATH"
-   ```
 
-3. **Install Dependencies:**
-   ```bash
-   uv sync --frozen
-   ```
+<p align="center">
+<a href="https://telegram.me/MR_ROCKY_TZ"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 𝐌𝐑 𝐑𝐎𝐂𝐊𝐘%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
+<p align="center">
+<a href="https://t.me/Music_World_Update"><img src="https://img.shields.io/badge/-☆𝐔𝐏𝐃𝐀𝐓𝐄%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
+</h3>
 
-4. **Configure Environment:**
-   ```bash
-   cp sample.env .env
-   # Edit .env with your variables
-   ```
-
-5. **Start the Bot:**
-   ```bash
-   bash start
-   ```
-
-<hr>
-
-## ⚙️ Configuration
-
-Required environment variables:
-
-| Variable | Description |
-| :--- | :--- |
-| `API_ID` | Your Telegram API ID from [my.telegram.org](https://my.telegram.org) |
-| `API_HASH` | Your Telegram API Hash from [my.telegram.org](https://my.telegram.org) |
-| `BOT_TOKEN` | Your Bot Token from [@BotFather](https://t.me/BotFather) |
-| `MONGO_URL` | Your MongoDB connection string |
-| `LOGGER_ID` | Your Log Group ID |
-| `OWNER_ID` | Your Telegram User ID |
-| `SESSION` | A Pyrogram String Session |
-
-<hr>
-
-## 👨‍💻 Connect With Us
-
-Stay updated and get support through our official channels:
-
-- 📢 **Channel:** [@aashikteam](https://t.me/aashikteam)
-- 🎧 **Support:** [@teamaashik](https://t.me/teamaashik)
-- 👤 **Developer:** [@KartikeMishra](https://t.me/KartikeMishra)
-- 📸 **Instagram:** [@riteshcoder](https://instagram.com/riteshcoder)
-
-<hr>
-
-## 📜 License
-
-This project is licensed under the [MIT License](https://github.com/TheAloneTeam/KartikMusic/blob/master/LICENSE).
-
----
-
-<div align="center">
-    <b>Made with ❤️ by <a href="https://github.com/TheAloneTeam">TheAloneTeam</a></b>
-</div>
+- Get your [Necessary Variables](https://github.com/saregamamusic/SaregamaMusic/blob/master/sample.env)
+- Upgrade and Update by :
+`sudo apt-get update && sudo apt-get upgrade -y`
+- Install Ffmpeg by :
+`sudo apt-get install python3-pip ffmpeg -y`
+- Install required packages by :
+`sudo apt-get install python3-pip -y`
+- Install pip by :
+`sudo pip3 install -U pip`
+- Install Node js by :
+`curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
+- Clone the repository by :
+`git clone https://github.com/saregamamusic/SaregamaMusic && cd `
+- Install requirements by :
+`pip3 install -U -r requirements.txt`
+- Fill your variables in the env by :
+`vi sample.env`<br>
+Press `I` on the keyboard for editing env<br>
+Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
+- Rename the env file by :
+`mv sample.env .env`
+- Install tmux to keep running your bot when you close the terminal by :
+`sudo apt install tmux && tmux`
+- Finally run the bot by :
+`bash start`
+- For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
+━━━━━━━━━━━━━━━━━━━━
+### Contact :
+<a href="https://telegram.me/MR_ROCKY_TZ"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>

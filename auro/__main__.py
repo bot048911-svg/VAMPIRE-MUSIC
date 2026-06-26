@@ -3,7 +3,7 @@ import importlib
 import signal
 from contextlib import suppress
 
-from auro import auro, app, config, db, logger, stop, thumb, userbot, yt
+from auro import app, auro, config, db, logger, stop, thumb, userbot, yt
 from auro.plugins import all_modules
 
 

@@ -135,8 +135,8 @@ class MongoDB:
             if not num or num > len(auro.clients):
                 num = 1
 
-            self.assistant[chat_id] = num   
-            
+            self.assistant[chat_id] = num
+
             if self.assistant[chat_id] > len(auro.clients):
                 self.assistant[chat_id] = 1
 

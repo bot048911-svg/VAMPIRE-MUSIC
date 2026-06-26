@@ -126,16 +126,17 @@ class MongoDB:
         return num
 
     async def get_assistant(self, chat_id: int):
+        from auro import auro
 
         if chat_id not in self.assistant:
             doc = await self.assistantdb.find_one({"_id": chat_id})
             num = doc["num"] if doc else None
 
-            if not num or num > len(userbot.clients):
+            if not num or num > len(auro.clients):
                 num = await self.set_assistant(chat_id)
             self.assistant[chat_id] = num
 
-        return userbot.clients[self.assistant[chat_id] - 1]
+        return auro.clients[self.assistant[chat_id] - 1]
 
     async def get_client(self, chat_id: int):
         if chat_id not in self.assistant:

@@ -3,7 +3,7 @@ from time import time
 
 from pymongo import AsyncMongoClient
 
-from auro import auro, config, logger
+from auro import config, logger, userbot
 
 
 class MongoDB:
@@ -131,11 +131,11 @@ class MongoDB:
             doc = await self.assistantdb.find_one({"_id": chat_id})
             num = doc["num"] if doc else None
 
-            if not num or num > len(auro.clients):
+            if not num or num > len(userbot.clients):
                 num = await self.set_assistant(chat_id)
             self.assistant[chat_id] = num
 
-        return auro.clients[self.assistant[chat_id] - 1]
+        return userbot.clients[self.assistant[chat_id] - 1]
 
     async def get_client(self, chat_id: int):
         if chat_id not in self.assistant:

@@ -133,12 +133,8 @@ class MongoDB:
             num = doc["num"] if doc else None
 
             if not num or num > len(auro.clients):
-                num = 1
-
+                num = await self.set_assistant(chat_id)
             self.assistant[chat_id] = num
-
-            if self.assistant[chat_id] > len(auro.clients):
-                self.assistant[chat_id] = 1
 
         return auro.clients[self.assistant[chat_id] - 1]
 

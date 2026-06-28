@@ -105,13 +105,13 @@
 ╔════════════════════════════════════════════════════════════════════╗
 ║                      🚀 Commands & Usage  🚀                      ║
 ║────────────────────────────────────────────────────────────────────║
-║ Command                 | Description                              ║  
+ ║ Command                 | Description                              ║  
 ║-------------------------|------------------------------------------║
 ║ `/play <song name>`     | Play the requested song.                 ║
 ║ `/pause`                | Pause the currently playing song.        ║
 ║ `/resume`               | Resume the paused song.                  ║
 ║ `/skip`                 | Move to the next song in the queue.      ║
-║ `/stop`                 | Stop the bot and clear the queue.        ║ 
+ ║ `/stop`                 | Stop the bot and clear the queue.        ║ 
 ║ `/queue`                | Display the list of songs in the queue.  ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```

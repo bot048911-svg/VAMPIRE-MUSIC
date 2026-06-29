@@ -27,10 +27,8 @@ class Config:
         self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/teamauro")
         self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/aurosupport")
 
-        self.API_URL = getenv("API_URL", "https://api.onegrab.fun")
-        self.API_KEY = getenv(
-            "API_KEY", "xx"
-        )  # Get this value from @FallenApiBot by sending /apikey
+        self.API_URL = "https://teaminflex.xyz"
+        self.API_KEY = "YOUR_KEY"
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "False"
         self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "False"

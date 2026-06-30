@@ -59,6 +59,7 @@ async def start(_, message: types.Message):
 async def settings(_, message: types.Message):
     admin_only = await db.get_play_mode(message.chat.id)
     cmd_delete = await db.get_cmd_delete(message.chat.id)
+    vclogger = await db.get_vclogger(message.chat.id)
     thumbnail = await db.get_thumb_mode(message.chat.id)
     _language = await db.get_lang(message.chat.id)
     await message.reply_text(
@@ -67,6 +68,7 @@ async def settings(_, message: types.Message):
             message.lang,
             admin_only,
             cmd_delete,
+            vclogger,
             thumbnail,
             _language,
             message.chat.id,

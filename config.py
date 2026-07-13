@@ -38,6 +38,7 @@ class Config:
 
         self.LANG_CODE = getenv("LANG_CODE", "en")
         self.BOT_NAME = getenv("BOT_NAME", "˹ꜱᴘᴏᴛɪꜰʏ ᴍᴜꜱɪᴄ˼♪")
+        self.OPENROUTER_API_KEY = getenv("OPENROUTER_API_KEY", "")
 
         self.COOKIES_URL = [
             url

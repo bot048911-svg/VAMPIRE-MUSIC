@@ -394,6 +394,24 @@ class MongoDB:
             upsert=True
         )
 
+    async def get_conversation_history(self, user_id: int) -> list:
+        doc = await self.user_namesdb.find_one({"_id": user_id})
+        return doc.get("conversation_history", []) if doc else []
+
+    async def add_to_conversation_history(self, user_id: int, role: str, content: str):
+        await self.user_namesdb.update_one(
+            {"_id": user_id},
+            {"$push": {"conversation_history": {"role": role, "content": content}}},
+            upsert=True
+        )
+
+    async def clear_conversation_history(self, user_id: int):
+        await self.user_namesdb.update_one(
+            {"_id": user_id},
+            {"$set": {"conversation_history": []}},
+            upsert=True
+        )
+
     async def migrate_coll(self) -> None:
         logger.info("Migrating users and chats from old collections...")
 

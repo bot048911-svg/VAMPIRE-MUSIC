@@ -12,6 +12,22 @@ SYSTEM_PROMPT = f"""You are {BOT_NAME}, a 22-year-old friendly, confident, witty
 # Create ollama async client
 ollama_client = AsyncClient()
 
+# Command to toggle chatbot
+@app.on_message(filters.command("chatbot") & ~filters.private)
+async def toggle_chatbot(client: Client, message: types.Message):
+    if len(message.command) < 2:
+        await message.reply_text("Usage: /chatbot on | off")
+        return
+    state = message.command[1].lower()
+    if state == "on":
+        await db.set_chatbot_state(message.chat.id, True)
+        await message.reply_text("Chatbot enabled! ✨")
+    elif state == "off":
+        await db.set_chatbot_state(message.chat.id, False)
+        await message.reply_text("Chatbot disabled!")
+    else:
+        await message.reply_text("Usage: /chatbot on | off")
+
 # Command to clear conversation history
 @app.on_message(filters.command("clearchat") & ~filters.private)
 async def clear_chat(client: Client, message: types.Message):
@@ -25,6 +41,11 @@ async def handle_chat(client: Client, message: types.Message):
     if not message.from_user:
         return
     
+    # Check if chatbot is enabled for this chat
+    chatbot_enabled = await db.get_chatbot_state(message.chat.id)
+    if not chatbot_enabled:
+        return
+
     user_id = message.from_user.id
     user_text = message.text
 
@@ -53,6 +74,9 @@ async def handle_chat(client: Client, message: types.Message):
 
         # Send the response
         await message.reply_text(bot_response)
+    except ConnectionError as e:
+        logger.error(f"Chatbot ConnectionError: {e}")
+        await message.reply_text("Oops! Ollama server is not running! Please start Ollama locally first 😅")
     except Exception as e:
         logger.error(f"Chatbot error: {e}")
         await message.reply_text("Oops, something went wrong! Please try again later 😅")

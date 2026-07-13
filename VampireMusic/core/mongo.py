@@ -412,6 +412,18 @@ class MongoDB:
             upsert=True
         )
 
+    async def get_chatbot_state(self, chat_id: int) -> bool:
+        doc = await self.chatsdb.find_one({"_id": chat_id})
+        # Default to True if no state is set
+        return doc.get("chatbot_enabled", True) if doc else True
+
+    async def set_chatbot_state(self, chat_id: int, enabled: bool):
+        await self.chatsdb.update_one(
+            {"_id": chat_id},
+            {"$set": {"chatbot_enabled": enabled}},
+            upsert=True
+        )
+
     async def migrate_coll(self) -> None:
         logger.info("Migrating users and chats from old collections...")
 

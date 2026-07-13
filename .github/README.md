@@ -123,7 +123,7 @@
 <br/>
 
 ### Contact :
-<a href="https://telegram.me/IVAMPIRE_KINGI"><img title="Telegram" src="https://img.shields.io/badge/OWNER-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+<a href="https://telegram.me/lVAMPIRE_KINGl"><img title="Telegram" src="https://img.shields.io/badge/OWNER-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 
 ## 〔 ⚠️ Disclaimer 〕
 

@@ -5,14 +5,14 @@
 </div>
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--              ✦  TEAM AURO  ✦                        -->
+<!--              ✦  TEAM VAMPIRE MUSIC  ✦                        -->
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,30:302b63,60:7c3aed,85:a855f7,100:ec4899&height=260&section=header&text=🎵%20TEAM%20AURO&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=45&stroke=ffffff&strokeWidth=1&desc=⚡%20Telegram%20Music%20Bot%20•%20Powered%20by%20Mr%20Rocky&descAlignY=68&descSize=16&descColor=e2d9ff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,30:302b63,60:7c3aed,85:a855f7,100:ec4899&height=260&section=header&text=🎵%20VAMPIRE%20MUSIC&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=45&stroke=ffffff&strokeWidth=1&desc=⚡%20Telegram%20Music%20Bot%20•%20Powered%20by%20Mr%20Rocky&descAlignY=68&descSize=16&descColor=e2d9ff" width="100%"/>
 
-## 🖇 ❛ 𝗔𝘂𝗿𝗼 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ❜
+## 🖇 ❛ 𝗩𝗮𝗺𝗽𝗶𝗿𝗲 𝗠𝘂𝘀𝗶𝗰 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ❜
 
 <p>
 <a href="https://t.me/SaregamMusicBot"><img src="https://img.shields.io/badge/SAREGAMA%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
@@ -38,7 +38,7 @@
 
 <br/>
 
-[![Deploy On Heroku](https://img.shields.io/badge/━━━━━━%20🚀%20DEPLOY%20ON%20HEROKU%20━━━━━━-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://github.com/rockyxd3/Auro)
+[![Deploy On Heroku](https://img.shields.io/badge/━━━━━━%20🚀%20DEPLOY%20ON%20HEROKU%20━━━━━━-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://github.com/bot048911-svg/VAMPIRE-MUSIC)
 
 <br/>
 
@@ -49,7 +49,7 @@
 ### 🖥️ &nbsp; Local / VPS Deployment
 
 <div align="center">
-- Required variables mentioned in <a href="https://github.com/rockyxd3/Auro/blob/master/sample.env">sample.env</a>
+- Required variables mentioned in <a href="https://github.com/bot048911-svg/VAMPIRE-MUSIC/blob/master/sample.env">sample.env</a>
 
 1. **Upgrade & Update:**
    ```bash
@@ -72,7 +72,7 @@
    ```
 4. **Clone the Repository**
    ```bash
-   git clone https://github.com/rockyxd3/Auro && cd Auro
+   git clone https://github.com/bot048911-svg/VAMPIRE-MUSIC && cd VAMPIRE-MUSIC
    ```
 5. **Install Requirements**
    ```bash
@@ -152,7 +152,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=140&section=footer&animation=fadeIn&fontColor=ffffff&text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20TEAM-AURO&fontSize=22&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=140&section=footer&animation=fadeIn&fontColor=ffffff&text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20TEAM-VAMPIRE-MUSIC&fontSize=22&fontAlignY=65" width="100%"/>
 
 <br/><br/>
 

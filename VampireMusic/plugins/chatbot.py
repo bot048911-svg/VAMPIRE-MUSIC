@@ -35,7 +35,7 @@ async def clear_chat(client: Client, message: types.Message):
     await message.reply_text("Chat history cleared! Let's start fresh ✨")
 
 # Handle all messages (except commands) in private and group
-@app.on_message(~filters.private)
+@app.on_message(~filters.private, group=20)
 async def handle_chat(client: Client, message: types.Message):
     logger.info(f"[Chatbot] Received message in chat {message.chat.id} from user {message.from_user.id if message.from_user else 'None'}: {message.text}")
     

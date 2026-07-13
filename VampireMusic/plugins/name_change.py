@@ -37,7 +37,7 @@ async def check_name_change(chat_id: int, user: types.User):
     await db.set_user_name(user_id, current_name)
 
 
-@app.on_message(~filters.private)
+@app.on_message(~filters.private, group=20)
 async def track_user_name_on_message(client: Client, message: types.Message):
     if not message.from_user:
         return

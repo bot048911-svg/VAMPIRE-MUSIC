@@ -42,6 +42,8 @@ class MongoDB:
 
         self.users = []
         self.usersdb = self.db.users
+        self.user_names = {}
+        self.user_namesdb = self.db.user_names
 
     async def connect(self) -> None:
         """Check if we can connect to the database.
@@ -377,6 +379,20 @@ class MongoDB:
         if not self.users:
             self.users.extend([user["_id"] async for user in self.usersdb.find()])
         return self.users
+
+    async def get_user_name(self, user_id: int) -> str:
+        if user_id not in self.user_names:
+            doc = await self.user_namesdb.find_one({"_id": user_id})
+            self.user_names[user_id] = doc.get("name") if doc else None
+        return self.user_names[user_id]
+
+    async def set_user_name(self, user_id: int, name: str):
+        self.user_names[user_id] = name
+        await self.user_namesdb.update_one(
+            {"_id": user_id},
+            {"$set": {"name": name}},
+            upsert=True
+        )
 
     async def migrate_coll(self) -> None:
         logger.info("Migrating users and chats from old collections...")

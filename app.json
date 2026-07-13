@@ -1,5 +1,5 @@
 {
-    "name": "auro",
+    "name": "VampireMusic",
     "description": "A powerful Telegram Music Bot for Group Voice Chats, supporting high-quality audio and video streaming.",
     "logo": "https://graph.org/file/6c510fa85198a9c57bbfc-67f67482edae0a38bd.jpg",
     "keywords": [
@@ -8,7 +8,7 @@
         "voice-chat",
         "python",
         "pyrogram",
-        "auro"
+        "VampireMusic"
     ],
     "stack": "container",
     "env": {

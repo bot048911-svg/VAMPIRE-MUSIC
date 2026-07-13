@@ -86,7 +86,7 @@ install_uv() {
 
 install_py() {
     pprint "\n\nInstalling Python dependencies...\n"
-    if uv sync --frozen -q; then
+    if python3 -m uv sync --frozen -q; then
         pprint "Done.\n" "cgreen"
     else
         pprint "Failed (continuing...)\n" "cred"
@@ -108,7 +108,7 @@ EOF
 }
 
 
-pprint "Welcome to the auro Installation Setup\n\n" "cmagenta"
+pprint "Welcome to the VampireMusic Installation Setup\n\n" "cmagenta"
 
 update
 install_pkgs python3 python3-venv ffmpeg curl unzip
@@ -116,7 +116,7 @@ install_uv || exit 1
 install_deno
 install_py
 
-pprint "\nauro Installation Completed.\n" "cgreen"
+pprint "\nVampireMusic Installation Completed.\n" "cgreen"
 
 pprint "\nEnter Your Values Below\n\n\n" "cmagenta"
 read -rp "API ID: " api_id

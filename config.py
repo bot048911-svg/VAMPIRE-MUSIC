@@ -24,19 +24,20 @@ class Config:
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/teamauro")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/aurosupport")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/teamVampireMusic")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/VampireMusicsupport")
 
         self.API_URL = "https://teaminflex.xyz"
         self.API_KEY = "INFLEX42532028D"
 
-        self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "False"
-        self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "False"
+        self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "true"
+        self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "true"
 
-        self.THUMB_GEN: bool = getenv("THUMB_GEN", "True").lower() == "true"
+        self.THUMB_GEN: bool = getenv("THUMB_GEN", "True").lower() != "false"
         self.VIDEO_PLAY: bool = getenv("VIDEO_PLAY", "True").lower() == "true"
 
         self.LANG_CODE = getenv("LANG_CODE", "en")
+        self.BOT_NAME = getenv("BOT_NAME", "˹ꜱᴘᴏᴛɪꜰʏ ᴍᴜꜱɪᴄ˼♪")
 
         self.COOKIES_URL = [
             url

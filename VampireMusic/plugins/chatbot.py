@@ -72,7 +72,7 @@ async def handle_chat(client: Client, message: types.Message):
             "Authorization": f"Bearer {OPENROUTER_API_KEY}"
         }
         payload = {
-            "model": "openai/gpt-4o",
+            "model": "meta-llama/llama-3-8b-instruct:free",
             "messages": messages
         }
         
